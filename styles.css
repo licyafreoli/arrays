@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #0288d1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #81d4fa;
+    border-radius: 4px;
+    background-color: #e1f5fe;
+    color: #0277bd;
+}
+
+.input button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #0288d1;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input button:hover {
+    background-color: #0277bd;
+}
+
+.list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list li:nth-child(odd) {
+    background-color: #e3f2fd;
+}
+
+.list li:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.list li .actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #d32f2f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list li .actions button:hover {
+    background-color: #c62828;
+}
+
+.list li .actions .edit {
+    background-color: #fbc02d;
+}
+
+.list li .actions .edit:hover {
+    background-color: #f9a825;
+}
